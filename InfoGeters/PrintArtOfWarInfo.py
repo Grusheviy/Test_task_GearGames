@@ -3,6 +3,12 @@ from FileWriters.AOWFileWriter import FileWriter
 
 class PrintArtOfWarInfo:
     def __init__(self, app_info, app_reviews):
+        """
+        Конструктор класса PrintArtOfWarInfo.
+        Инициализирует экземпляры классов для работы с информацией о "Art Of War 3" и отзывах.
+        :param app_info: Экземпляр класса AppInfo для получения информации об "Art Of War 3".
+        :param app_reviews: Экземпляр класса AppReviews для получения отзывов об "Art Of War 3".
+        """
         self.app_info = app_info
         self.app_reviews = app_reviews
 

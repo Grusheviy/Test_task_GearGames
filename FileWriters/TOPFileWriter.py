@@ -1,6 +1,11 @@
 class FileWriter:
     @staticmethod
     def top_write_to_file(app_info, app_reviews):
+        """
+        Статический метод для записи информации о приложении и отзывов в файл 'TOP_3.txt'.
+        :param app_info: Информация о приложении, представленная в виде словаря.
+        :param app_reviews: Список отзывов о приложении.
+        """
         try:
             with open('TOP_3.txt', 'a', encoding='utf-8') as file:  # изменено w на a
                 # Запись информации о приложении в файл

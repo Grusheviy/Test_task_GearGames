@@ -2,6 +2,13 @@ from google_play_scraper import reviews
 
 class AppReviews:
     def get_app_reviews(self, app_id, count=100):
+
+        """
+        Получение отзывов для приложения с использованием пагинации.
+        :param app_id: Идентификатор приложения.
+        :param count: Количество отзывов для получения (по умолчанию 100).
+        :return: Список отзывов, ограниченный заданным количеством.
+        """
         try:
             all_reviews = []
             continuation_token = None

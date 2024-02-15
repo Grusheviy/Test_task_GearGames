@@ -1,6 +1,11 @@
 class FileWriter:
     @staticmethod
     def aow_write_to_file(app_info, app_reviews):
+        """
+        Статический метод для записи информации о приложении Art of War 3 и отзывов в файл 'art_of_war_3_info.txt'.
+        :param app_info: Информация о приложении, представленная в виде словаря.
+        :param app_reviews: Список отзывов о приложении.
+        """
         try:
             with open('art_of_war_3_info.txt', 'w', encoding='utf-8') as file:
                 # Запись информации о приложении в файл

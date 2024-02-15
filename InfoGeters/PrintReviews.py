@@ -1,4 +1,10 @@
 def print_review(app_reviews, count=100):
+    """
+    Функция для вывода отзывов на экран.
+
+    :param app_reviews: Список отзывов приложения.
+    :param count: Количество отзывов для вывода (по умолчанию 100).
+    """
     try:
         if isinstance(app_reviews, list):
             if not app_reviews:

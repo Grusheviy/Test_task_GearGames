@@ -2,6 +2,10 @@ from GooglePlayAPI.AppInfo import AppInfo
 
 
 def print_app_info(app_info):
+    """
+    Функция для вывода информации о приложении на экран.
+    :param app_info: Информация о приложении, представленная в виде словаря.
+    """
     try:
         # Вывод информации о приложении
         print("Название:", app_info['title'])
