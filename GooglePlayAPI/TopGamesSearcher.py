@@ -1,7 +1,9 @@
 from google_play_scraper import search
 
+
 class TopGamesSearcher:
-    def search_top_games(self, query, n_hits=3):
+    @staticmethod
+    def search_top_games(query, n_hits=3):
         try:
 
             """

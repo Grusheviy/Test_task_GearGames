@@ -1,5 +1,3 @@
-from GooglePlayAPI.AppInfo import AppInfo
-
 
 def print_app_info(app_info):
     """

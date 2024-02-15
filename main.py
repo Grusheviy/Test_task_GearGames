@@ -3,6 +3,7 @@ from GooglePlayAPI.AppReviews import AppReviews
 from InfoGeters.PrintArtOfWarInfo import PrintArtOfWarInfo
 from InfoGeters.PrintTopGames import PrintTopGames
 
+
 def main():
     try:
         # Инициализация экземпляров классов для работы с информацией о приложениях и отзывах

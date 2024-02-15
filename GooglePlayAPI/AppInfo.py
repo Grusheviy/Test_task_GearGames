@@ -1,7 +1,9 @@
 from google_play_scraper import app
 
+
 class AppInfo:
-    def get_app_info(self, app_id):
+    @staticmethod
+    def get_app_info(app_id):
         try:
             """
             Получение информации о приложении с использованием библиотеки google_play_scraper.

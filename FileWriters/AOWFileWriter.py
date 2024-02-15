@@ -19,10 +19,10 @@ class FileWriter:
                 file.write("Отзывы:\n")
                 for i, review in enumerate(app_reviews, start=1):
                     file.write(f"Отзыв #{i}:\n")
-                    file.write(f"  Имя пользователя: {review['userName']}\n")
-                    file.write(f"  Дата отзыва: {review['at']}\n")
-                    file.write(f"  Текст сообщения: {review['content']}\n")
-                    file.write(f"  Оценка: {review['score']}\n")
+                    file.write(f"Имя пользователя: {review['userName']}\n")
+                    file.write(f"Дата отзыва: {review['at']}\n")
+                    file.write(f"Текст сообщения: {review['content']}\n")
+                    file.write(f"Оценка: {review['score']}\n")
                     file.write("---\n")
 
             print("Информация успешно записана в файл 'art_of_war_3_info.txt'")
